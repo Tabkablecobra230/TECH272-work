@@ -1,0 +1,99 @@
+
+<!--add nested lists for different animal types, add a time input for appointment creation, add a return to top button-->
+<!--all changes abpve have been made now-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vet Website Test</title>
+</head>
+<body style="font-family:Arial; background-color:lavender; color:dimgray; margin:0;">
+
+    <!--nav bar-->
+    <div style="background-color:lightblue; padding:10px; text-align:center;">
+        <a href="#home" style="margin:15px; text-decoration:none; color:darkblue;">Home</a>
+        <a href="#gallery" style="margin:15px; text-decoration:none; color:darkblue;">Gallery</a>
+        <a href="#form" style="margin:15px; text-decoration:none; color:darkblue;">Appointments</a>
+        <a href="#comments" style="margin:15px; text-decoration:none; color:darkblue;">Comments</a>
+    </div>
+
+    <!--headers-->
+    <h1 style="text-align:center; color:mediumslateblue;">Rockville Vet Services</h1>
+    <h2 style="text-align:center; color:lightcoral;">Dr. John Smith</h2>
+
+    <!--images-->
+    <h3 id="gallery" style="text-align:center;">Image Gallery</h3>
+    <div style="display:flex; justify-content:center; flex-wrap:wrap; gap:10px;">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Mares_and_Foals.jpg/1920px-Mares_and_Foals.jpg" style="max-width:15%; height:auto;" alt="Horses" title=" (Credit By DallasPenner - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=175261064)">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Chin_posing.jpg/1280px-Chin_posing.jpg" style="max-width:15%; height:auto;" alt= "Dog" title= "(Credit By Joliot - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=20850770)">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Cat_August_2010-4.jpg/2560px-Cat_August_2010-4.jpg" style="max-width:15%; height:auto;" alt= "Cat" title= "(Credit By Alvesgaspar - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=11390283)">
+    </div>
+    <br>
+    <div style="display:flex; justify-content:center;">
+        <ul style="list-style-type:disc; text-align:left;">
+            <li>Mammals
+                <ul>
+                    <li>Dogs</li>
+                    <li>Cats</li>
+                    <li>Rabbits</li>
+                </ul>
+            </li>
+            <li>Birds
+                <ul>
+                    <li>Parrots</li>
+                    <li>Canaries</li>
+                </ul>
+            </li>
+            <li>Reptiles
+                <ul>
+                    <li>Turtles</li>
+                    <li>Snakes</li>
+                </ul>
+            </li>
+            <li>Equines
+                <ul>
+                    <li>Horses</li>
+                    <li>Ponies</li>
+                </ul>
+            </li>
+            <li>Rodents
+                <ul>
+                    <li>Hamsters</li>
+                    <li>Guinea Pigs</li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+    <!--appointment submission form-->
+    <h3 id="form" style="text-align:center;">Create appointment</h3>
+        <form style="text-align:center;">
+            <label>Username:</label>
+            <input type="text" name="username"><br><br>
+
+            <label>Password:</label>
+            <input type="password" name="password"><br><br>
+
+            <label>Date:</label>
+            <input type="date" name="date"><br><br>
+
+            <label>Time:</label>
+            <input type="time" name="time"><br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+
+    <!--customer reviews-->
+    <h3 id="comments" style="text-align:center;">Comments</h3>
+    <div style="width:60%; margin:auto;">
+        <p>&#11088;&#11088;&#11088;&#11088;&#11088; They were great at making sure my dog was healthy.</p>
+        <p>&#11088;&#11088;&#11088;&#11088;&#11088; They did a great job ensuring that my cat had all his shots.</p>
+        <p>&#11088;&#11088;&#11088;&#11088; Dr. Smith is very flexible with appointment scheduling.</p>
+        <p>&#11088;&#11088;&#11088;&#11088; All of the staff were very helpful at ensuring my dog was up to date on her meds.</p>
+        <p>&#11088;&#11088;&#11088;&#11088;&#11088; Dr. Smith and his team were great when my rabbit needed a tooth removed.</p>
+    </div>
+
+</body>
+</html>
+<button onclick="window.scrollTo({top: 0, behavior: 'smooth'});" 
+    style="position:fixed; bottom:20px; right:20px; background-color:mediumslateblue; color:white; border:none; border-radius:50%; width:50px; height:50px; font-size:24px; cursor:pointer; box-shadow:0 2px 6px rgba(0,0,0,0.2); z-index:1000;"
+    title="Return to Top">&#8679;</button>

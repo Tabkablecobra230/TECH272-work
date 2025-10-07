@@ -1,0 +1,13 @@
+h1{
+text-align: center;
+margin: 20px 0;
+}
+nav{
+text-align: center;
+margin: 20px 0;
+}
+.gallery{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+}
