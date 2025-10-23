@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f5;
+    color: #444;
+    margin: 0;
+    text-align: center;
+}
+
+/* headers */
+header {
+    background-color: #f6d6ff;
+    padding: 20px;
+}
+
+h1 {
+    color: #6b4fa1;
+    margin: 0;
+}
+
+/* buttons */
+nav {
+    margin: 20px 0;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #d6f5f5;
+    color: #333;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 50px;
+    margin: 0 10px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #b8e6e6;
+}
+
+/* image stuff */
+.image-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.image-list li {
+    margin: 15px 0;
+}
+
+.image-list img {
+    max-width: 480px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* lists */
+#destinations ul {
+    text-align: left;
+    display: inline-block;
+}
+
+#destinations li {
+    margin: 10px;
+}
+
+/* email box */
+form {
+    margin-top: 20px;
+}
+
+input[type="email"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 250px;
+}
+
+.email-btn {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.email-btn:hover {
+    background-color: #ffb84d;
+}
+
+/* social media */
+.socials {
+    margin-top: 30px;
+    background-color: #e6f7ff;
+    padding: 15px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #0073b1;
+}
+
+/* footer */
+footer {
+    background-color: #f6d6ff;
+    padding: 15px;
+    margin-top: 30px;
+    color: #6b4fa1;
+}
